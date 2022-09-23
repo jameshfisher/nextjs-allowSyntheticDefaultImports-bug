@@ -1,0 +1,20 @@
+$ npm run build
+
+> my-app@0.1.0 build
+> next build
+
+info  - Linting and checking validity of types .Failed to compile.
+
+./pages/_document.tsx:6:8
+Type error: 'Head' cannot be used as a JSX component.
+  Its instance type 'Head' is not a valid JSX element.
+    Type 'Head' is missing the following properties from type 'ElementClass': setState, forceUpdate, props, state, refs
+
+  4 |   return (
+  5 |     <Html>
+> 6 |       <Head />
+    |        ^
+  7 |       <body>
+  8 |         <Main />
+  9 |         <NextScript />
+info  - Linting and checking validity of types ..
